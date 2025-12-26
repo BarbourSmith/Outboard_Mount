@@ -44,8 +44,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": -550,
-          "currentEquation": "-550"
+          "ioValue": -570,
+          "currentEquation": "-570"
         }
       ]
     },
@@ -2202,6 +2202,13 @@
       "y": 0.8467966573816156,
       "uniqueID": "id-45230",
       "name": "Motor Mount",
+      "ioValues": [
+        {
+          "name": "Wood_Thickness",
+          "ioValue": 18,
+          "currentEquation": "18"
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -2212,14 +2219,14 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.292989417989418,
-          "y": 0.584958217270195,
+          "x": 0.2777777777777778,
+          "y": 0.33147632311977715,
           "uniqueID": "id-45234",
           "name": "Vertical Plate",
           "ioValues": [
             {
               "name": "Wood_Thickness",
-              "ioValue": 10
+              "ioValue": 18
             }
           ],
           "topLevel": false,
@@ -2245,7 +2252,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 10
+                  "ioValue": 18
                 }
               ]
             },
@@ -2850,6 +2857,91 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.28174603174603174,
+          "y": 0.6740947075208913,
+          "uniqueID": "id-45332",
+          "name": "Horizontal plate",
+          "ioValues": [
+            {
+              "name": "Wood_Thickness",
+              "ioValue": 18
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-45334"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.3593314763231198,
+              "uniqueID": "id-45339",
+              "name": "Wood_Thickness",
+              "type": "number"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.30952380952380953,
+              "y": 0.7548746518105849,
+              "uniqueID": "id-45342",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 200,
+                  "currentEquation": "200"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 200,
+                  "currentEquation": "200"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.4497354497354497,
+              "y": 0.45403899721448465,
+              "uniqueID": "id-45346",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 18
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-45339",
+              "ap2ID": "id-45346"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-45342",
+              "ap2ID": "id-45346"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-45346",
+              "ap2ID": "id-45334"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.5097493036211699,
+          "uniqueID": "id-45336",
+          "name": "Wood_Thickness"
         }
       ],
       "allConnectors": [
@@ -2857,6 +2949,16 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-45234",
           "ap2ID": "id-45232"
+        },
+        {
+          "ap2Name": "Wood_Thickness",
+          "ap1ID": "id-45336",
+          "ap2ID": "id-45234"
+        },
+        {
+          "ap2Name": "Wood_Thickness",
+          "ap1ID": "id-45336",
+          "ap2ID": "id-45332"
         }
       ],
       "fileTypeVersion": 1
