@@ -2219,8 +2219,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2777777777777778,
-          "y": 0.33147632311977715,
+          "x": 0.27976190476190477,
+          "y": 0.1392757660167131,
           "uniqueID": "id-45234",
           "name": "Vertical Plate",
           "ioValues": [
@@ -2860,8 +2860,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.28174603174603174,
-          "y": 0.6740947075208913,
+          "x": 0.27976190476190477,
+          "y": 0.33704735376044564,
           "uniqueID": "id-45332",
           "name": "Horizontal plate",
           "ioValues": [
@@ -2942,13 +2942,68 @@
           "y": 0.5097493036211699,
           "uniqueID": "id-45336",
           "name": "Wood_Thickness"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.41269841269841273,
+          "y": 0.4735376044568245,
+          "uniqueID": "id-45350",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 118
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2645502645502646,
+          "y": 0.6657381615598886,
+          "uniqueID": "id-45356",
+          "name": "100+T",
+          "ioValues": [
+            {
+              "name": "T",
+              "ioValue": 18
+            }
+          ],
+          "currentEquation": "100+T"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.6078042328042328,
+          "y": 0.39275766016713093,
+          "uniqueID": "id-45361",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-45234",
-          "ap2ID": "id-45232"
+          "ap2ID": "id-45361"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-45332",
+          "ap2ID": "id-45350"
         },
         {
           "ap2Name": "Wood_Thickness",
@@ -2959,6 +3014,26 @@
           "ap2Name": "Wood_Thickness",
           "ap1ID": "id-45336",
           "ap2ID": "id-45332"
+        },
+        {
+          "ap2Name": "T",
+          "ap1ID": "id-45336",
+          "ap2ID": "id-45356"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-45350",
+          "ap2ID": "id-45361"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-45356",
+          "ap2ID": "id-45350"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-45361",
+          "ap2ID": "id-45232"
         }
       ],
       "fileTypeVersion": 1
