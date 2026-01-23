@@ -197,7 +197,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 80
+              "ioValue": 100,
+              "currentEquation": "100"
             },
             {
               "name": "zDist",
@@ -221,7 +222,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -140
+              "ioValue": -183
             },
             {
               "name": "zDist",
@@ -275,8 +276,8 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 275,
-                  "currentEquation": "275"
+                  "ioValue": 250,
+                  "currentEquation": "250"
                 }
               ]
             },
@@ -318,8 +319,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.27976190476190477,
-          "y": 0.1392757660167131,
+          "x": 0.28240740740740744,
+          "y": 0.16666666666666666,
           "uniqueID": "id-45234",
           "name": "Vertical Plate",
           "ioValues": [
@@ -391,8 +392,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.7466931216931217,
-              "y": 0.6183844011142061,
+              "x": 0.7453703703703703,
+              "y": 0.6055555555555555,
               "uniqueID": "id-45239",
               "ioValues": [
                 {
@@ -409,7 +410,8 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -170
+                  "ioValue": -145,
+                  "currentEquation": "-170+25"
                 }
               ]
             },
@@ -422,12 +424,13 @@
               "ioValues": [
                 {
                   "name": "Width",
-                  "ioValue": 500
+                  "ioValue": 525,
+                  "currentEquation": "525"
                 },
                 {
                   "name": "Height",
-                  "ioValue": 300,
-                  "currentEquation": "300"
+                  "ioValue": 250,
+                  "currentEquation": "250"
                 },
                 {
                   "name": "Radius",
@@ -507,7 +510,7 @@
                   "ioValues": [
                     {
                       "name": "H",
-                      "ioValue": 300
+                      "ioValue": 250
                     },
                     {
                       "name": "R",
@@ -528,11 +531,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 200
+                      "ioValue": 212.5
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 100
+                      "ioValue": 75
                     },
                     {
                       "name": "zDist",
@@ -565,7 +568,7 @@
                   "ioValues": [
                     {
                       "name": "W",
-                      "ioValue": 500
+                      "ioValue": 525
                     },
                     {
                       "name": "R",
@@ -583,7 +586,7 @@
                   "ioValues": [
                     {
                       "name": "H",
-                      "ioValue": 300
+                      "ioValue": 250
                     },
                     {
                       "name": "R",
@@ -604,11 +607,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 200
+                      "ioValue": 212.5
                     },
                     {
                       "name": "yDist",
-                      "ioValue": -100
+                      "ioValue": -75
                     },
                     {
                       "name": "zDist",
@@ -628,11 +631,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -200
+                      "ioValue": -212.5
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 100
+                      "ioValue": 75
                     },
                     {
                       "name": "zDist",
@@ -652,11 +655,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -200
+                      "ioValue": -212.5
                     },
                     {
                       "name": "yDist",
-                      "ioValue": -100
+                      "ioValue": -75
                     },
                     {
                       "name": "zDist",
@@ -673,7 +676,7 @@
                   "ioValues": [
                     {
                       "name": "W",
-                      "ioValue": 500
+                      "ioValue": 525
                     },
                     {
                       "name": "R",
@@ -712,7 +715,7 @@
                     {
                       "name": "Shape 1",
                       "ioValue": {
-                        "geometry": "move-circle-50--200--100-0",
+                        "geometry": "move-circle-50--212.5--75-0",
                         "dimension": "2D",
                         "tags": [],
                         "plane": {
@@ -739,7 +742,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "move-circle-50--200-100-0",
+                        "geometry": "move-circle-50--212.5-75-0",
                         "dimension": "2D",
                         "tags": [],
                         "plane": {
@@ -766,7 +769,7 @@
                     {
                       "name": "Shape 3",
                       "ioValue": {
-                        "geometry": "move-circle-50-200--100-0",
+                        "geometry": "move-circle-50-212.5--75-0",
                         "dimension": "2D",
                         "tags": [],
                         "plane": {
@@ -793,7 +796,7 @@
                     {
                       "name": "Shape 4",
                       "ioValue": {
-                        "geometry": "move-circle-50-200-100-0",
+                        "geometry": "move-circle-50-212.5-75-0",
                         "dimension": "2D",
                         "tags": [],
                         "plane": {
@@ -1018,8 +1021,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.048941798941798946,
-          "y": 0.9331476323119776,
+          "x": 0.0548941798941799,
+          "y": 0.9249999999999999,
           "uniqueID": "id-45734",
           "name": "Stabalizer",
           "ioValues": [
@@ -1068,14 +1071,15 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.2447089947089947,
-              "y": 0.5487465181058496,
+              "x": 0.24801587301587302,
+              "y": 0.5555555555555556,
               "uniqueID": "id-45752",
               "name": "Quarter_Round",
               "ioValues": [
                 {
                   "name": "Diameter",
-                  "ioValue": 80
+                  "ioValue": 177.79999999999998,
+                  "currentEquation": "3.5*2*25.4"
                 }
               ],
               "topLevel": false,
@@ -1107,7 +1111,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 80
+                      "ioValue": 177.79999999999998
                     }
                   ]
                 },
@@ -1119,11 +1123,11 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 160
+                      "ioValue": 355.59999999999997
                     },
                     {
                       "name": "y length",
-                      "ioValue": 160
+                      "ioValue": 355.59999999999997
                     }
                   ]
                 },
@@ -1136,7 +1140,7 @@
                   "ioValues": [
                     {
                       "name": "D",
-                      "ioValue": 80
+                      "ioValue": 177.79999999999998
                     }
                   ],
                   "currentEquation": "2*D"
@@ -1153,7 +1157,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 80
+                      "ioValue": 177.79999999999998
                     },
                     {
                       "name": "yDist",
@@ -1174,7 +1178,7 @@
                     {
                       "name": "Shape 1",
                       "ioValue": {
-                        "geometry": "move-rectangle-160-160-80-0-0",
+                        "geometry": "move-rectangle-355.59999999999997-355.59999999999997-177.79999999999998-0-0",
                         "dimension": "2D",
                         "plane": {
                           "origin": [
@@ -1201,7 +1205,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "move-rectangle-160-160-0-80-0",
+                        "geometry": "move-rectangle-355.59999999999997-355.59999999999997-0-177.79999999999998-0",
                         "dimension": "2D",
                         "plane": {
                           "origin": [
@@ -1260,7 +1264,7 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 80
+                      "ioValue": 177.79999999999998
                     },
                     {
                       "name": "zDist",
