@@ -1912,8 +1912,8 @@
         },
         {
           "atomType": "Gcode",
-          "x": 0.9107142857142856,
-          "y": 0.8527777777777777,
+          "x": 0.9047619047619047,
+          "y": 0.8305555555555555,
           "uniqueID": "id-46693",
           "ioValues": [
             {
@@ -1926,8 +1926,8 @@
             },
             {
               "name": "Passes",
-              "ioValue": 2,
-              "currentEquation": "2"
+              "ioValue": 3,
+              "currentEquation": "3"
             },
             {
               "name": "Speed",
@@ -1944,7 +1944,7 @@
             }
           ],
           "partName": "Motor Mount",
-          "sortDirection": "Left"
+          "sortDirection": "Top"
         }
       ],
       "allConnectors": [
