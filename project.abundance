@@ -60,8 +60,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.40674603174603174,
-      "y": 0.8916666666666667,
+      "x": 0.40145502645502645,
+      "y": 0.8666666666666667,
       "uniqueID": "id-45230",
       "name": "Motor Mount",
       "ioValues": [
@@ -255,8 +255,8 @@
         },
         {
           "atomType": "CutLayout",
-          "x": 0.7962962962962963,
-          "y": 0.8333333333333334,
+          "x": 0.7936507936507936,
+          "y": 0.8194444444444444,
           "uniqueID": "id-46686",
           "name": "Cut Layout",
           "ioValues": [
@@ -725,8 +725,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -50,
-                  "currentEquation": "-50"
+                  "ioValue": -50
                 }
               ]
             },
@@ -813,8 +812,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -390,
-                  "currentEquation": "-390"
+                  "ioValue": -390
                 }
               ]
             }
@@ -2665,10 +2663,6 @@
                     {
                       "name": "radius",
                       "ioValue": 20
-                    },
-                    {
-                      "name": "inputShape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2683,10 +2677,6 @@
                     {
                       "name": "radius",
                       "ioValue": 2
-                    },
-                    {
-                      "name": "inputShape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -4433,10 +4423,6 @@
                         {
                           "name": "Angle",
                           "ioValue": 120
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
